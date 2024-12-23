@@ -1,0 +1,547 @@
+@media (min-width: 768px) {
+  /* header */
+  .header nav li {
+    font-size: 15px;
+  }
+  .header nav a {
+    border-radius: 15px;
+    padding: 0px 15px 15px 15px;
+  }
+  .header .title h1 {
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+  }
+  .header .title p {
+    font-size: 1.5rem;
+  }
+
+  .header .title .btn-send {
+    padding: 15px;
+    font-size: 1.5rem;
+    margin-top: 5vw;
+    transition: 0.7s ease;
+  }
+  .header .btn-send:hover {
+    background-color: red;
+    transform: translateY(-15px);
+    color: #fff;
+  }
+
+  /* content1 */
+
+  .content1 .wraper {
+    grid-template-columns: 45vw 55vw;
+  }
+
+  .content1 .title2 {
+    font-size: 1.6rem;
+  }
+  .content1 .title2::after {
+    width: 90vw;
+    margin-left: 0vw;
+  }
+  .content1 .img2 {
+    height: 32vw;
+  }
+
+  .content1 .par1 {
+    font-size: 20px;
+    margin-top: 20vw;
+    margin-bottom: 20vw;
+  }
+
+  /* content2 */
+
+  .content2 .title3 {
+    font-size: 2rem;
+  }
+
+  .content2 .desc {
+    font-size: 1rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .content2 .grille {
+    grid-template-rows: 50vw 50vw 50vw;
+    margin-right: 6vw;
+    margin-left: 6vw;
+  }
+  .content2 .carte {
+    text-align: center;
+    background-color: #413f3f41;
+    padding: 0 10px;
+    border-radius: 25px;
+    border-top: #0019fab2 solid 15px;
+    border-bottom: #ffffffb2 solid 15px;
+    transition: 0.7s ease;
+  }
+  .content2 .carte:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(72, 7, 102, 0.767);
+  }
+  .content2 .carte .icon {
+    font-size: 2rem;
+  }
+  .content2 .carte h3 {
+    font-size: 1.5rem;
+  }
+
+  .content2 .carte p {
+    font-size: 16px;
+  }
+  /* footer */
+
+  footer .title3 {
+    font-size: 1.8rem;
+  }
+  footer form {
+    transform: scale(0.8);
+  }
+  footer form .sub-btn {
+    margin-top: 4vw;
+    font-size: 1.6rem;
+    padding: 20px 40px;
+  }
+  footer .social-links {
+    margin-top: -5vw;
+  }
+  footer .social-links a {
+    font-size: 1.6rem;
+    padding: 3vw 3.5vw;
+  }
+}
+@media (min-width: 1000px) {
+  /* header */
+
+  .header .title {
+    padding: 6vw 3vw;
+  }
+  /* content1 */
+
+  .content1 .wraper {
+    grid-template-columns: 45vw 60vw;
+  }
+
+  .content1 .title2 {
+    font-size: 2.4rem;
+  }
+  .content1 .title2::after {
+    width: 90vw;
+    margin-left: 30vw;
+  }
+  .content1 .img2 {
+    height: 34vw;
+    margin-left: 1.5vw;
+  }
+
+  .content1 .par1 {
+    font-size: 24px;
+  }
+
+  /* content2 */
+
+  .content2 .title3 {
+    font-size: 2.4rem;
+  }
+
+  .content2 .desc {
+    font-size: 1.2rem;
+  }
+
+  .content2 .grille {
+    grid-template-rows: 40vw 40vw 40vw;
+  }
+  /* footer */
+
+  footer {
+    padding-top: 5vw;
+  }
+
+  footer .title3 {
+    font-size: 2rem;
+  }
+
+  footer .desc2 {
+    font-size: 1.6rem;
+  }
+
+  footer form {
+    height: 80vw;
+  }
+  footer form input {
+    width: 40vw;
+    padding: 2vw;
+    margin-bottom: 4vw;
+    font-size: 1.5rem;
+  }
+  footer form .msg-field {
+    height: 40vw;
+    font-size: 1.5rem;
+    width: 40vw;
+  }
+  footer form .msg-field::placeholder {
+    font-size: 1.5rem;
+  }
+  footer form .sub-btn {
+    margin-top: 3vw;
+    font-size: 1.8rem;
+    padding: 20px 30px;
+  }
+  footer .social-links {
+    margin-top: 0vw;
+  }
+  footer .social-links a {
+    font-size: 1.8rem;
+    padding: 3vw 3.5vw;
+  }
+  footer .social-links a:hover {
+    color: rgb(127, 127, 255);
+    border: 1px solid rgb(127, 127, 255);
+  }
+}
+
+@media (min-width: 1000px) {
+  /* header */
+
+  .header .title {
+    padding: 6vw 3vw;
+  }
+  /* content1 */
+
+  .content1 .wraper {
+    grid-template-columns: 45vw 60vw;
+  }
+
+  .content1 .title2 {
+    font-size: 2.4rem;
+  }
+  .content1 .title2::after {
+    width: 90vw;
+    margin-left: 30vw;
+  }
+  .content1 .img2 {
+    height: 34vw;
+    margin-left: 1.5vw;
+  }
+
+  .content1 .par1 {
+    font-size: 24px;
+  }
+
+  /* content2 */
+
+  .content2 .title3 {
+    font-size: 2.4rem;
+  }
+
+  .content2 .desc {
+    font-size: 1.2rem;
+  }
+
+  .content2 .grille {
+    grid-template-rows: 40vw 40vw 40vw;
+  }
+  /* footer */
+
+  footer {
+    padding-top: 5vw;
+  }
+
+  footer .title3 {
+    font-size: 2rem;
+  }
+
+  footer .desc2 {
+    font-size: 1.6rem;
+  }
+
+  footer form {
+    height: 80vw;
+  }
+  footer form input {
+    width: 40vw;
+    padding: 2vw;
+    margin-bottom: 4vw;
+    font-size: 1.5rem;
+  }
+  footer form .msg-field {
+    height: 40vw;
+    font-size: 1.5rem;
+    width: 40vw;
+  }
+  footer form .msg-field::placeholder {
+    font-size: 1.5rem;
+  }
+  footer form .sub-btn {
+    margin-top: 3vw;
+    font-size: 1.8rem;
+    padding: 20px 30px;
+  }
+  footer .social-links {
+    margin-top: 0vw;
+  }
+  footer .social-links a {
+    font-size: 1.8rem;
+    padding: 3vw 3.5vw;
+  }
+  footer .social-links a:hover {
+    color: rgb(127, 127, 255);
+    border: 1px solid rgb(127, 127, 255);
+  }
+}
+
+@media (min-width: 1272px) {
+  /* header */
+  .header nav li {
+    font-size: 1.2rem;
+  }
+  .header nav a {
+    padding: 0px 20px 15px 20px;
+  }
+  .header .title h1 {
+    font-size: 3rem;
+  }
+  .header .title p {
+    font-size: 2rem;
+  }
+
+  .header .title .btn-send {
+    margin-top: 2vw;
+  }
+
+  /* content1 */
+
+  .content1 .wraper {
+    grid-template-columns: 40vw 60vw;
+  }
+
+  .content1 .title2 {
+    font-size: 2.5rem;
+  }
+  .content1 .title2::after {
+    width: 38vw;
+    margin-left: -11vw;
+    top: 12vw;
+  }
+  .content1 .img2 {
+    height: 36vw;
+    margin-top: auto;
+    margin-right: auto;
+  }
+
+  .content1 .par1 {
+    font-size: 1.5rem;
+    margin-top: -20vw;
+    margin-bottom: 5vw;
+    margin-left: 3vw;
+    width: 35vw;
+  }
+
+  /* content2 */
+
+  .content2 .title3 {
+    font-size: 2.5rem;
+  }
+  .content2 .desc {
+    font-size: 1.5rem;
+  }
+
+  .content2 .grille {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 35vw 35vw;
+  }
+  .carte1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .carte2 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .carte3 {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .carte4 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .carte5 {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .carte6 {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  .content2 .carte .icon {
+    font-size: 3rem;
+  }
+  /* footer */
+  footer .title3 {
+    font-size: 3rem;
+  }
+  footer .desc2 {
+    font-size: 1.4rem;
+  }
+  footer form {
+    background: rgba(243, 221, 99, 0.63);
+    height: 52vw;
+    border-radius: 20px;
+    padding: 4vw 2vw;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5vw;
+  }
+
+  footer form input {
+    width: 31vw;
+    padding: 2vw;
+    margin-bottom: 4vw;
+    margin-left: 0vw;
+  }
+  footer form .msg-field {
+    height: 18vw;
+    width: 30vw;
+  }
+  footer form .msg-field::placeholder {
+    font-size: 2rem;
+  }
+
+  footer form .sub-btn {
+    margin-top: 2vw;
+    font-size: 2rem;
+    padding: 15px 35px;
+  }
+  footer .social-links {
+    margin-top: -2vw;
+  }
+  footer .social-links a {
+    font-size: 3rem;
+    padding: 2vw 2.4vw;
+  }
+}
+
+@media (min-width: 2552px) {
+    /* header */
+    .header nav li {
+      font-size: 2.4rem;
+    }
+    .header nav a {
+      padding: 0px 20px 25px 20px;
+    }
+    .header .title{
+      margin-top: 7vw;
+      padding: 6wv 5vw 6vw 5vw;
+    }
+    .header .title h1 {
+      font-size: 5rem;
+    }
+    .header .title p {
+      font-size: 4rem;
+    }
+  
+    .header .title .btn-send {
+      margin-top: 2vw;
+      font-size: 4rem;
+    }
+  
+    /* content1 */
+    .content1{
+      height: 100vh;
+    }
+    .content1 .wraper {
+      grid-template-columns: 40vw 60vw;
+    }
+  
+    .content1 .title2 {
+      font-size: 4rem;
+    }
+    .content1 .title2::after {
+      width: 38vw;
+      margin-left: -17vw;
+      top: 9vw;
+    }
+    .content1 .img2 {
+      height: 36vw;
+    }
+    .content1 .img2:hover {
+      box-shadow: -5px 10px 15px #043efd42;
+      transform: translateY(0px);
+    }
+  
+    .content1 .par1 {
+      font-size: 3rem;
+      margin-top: -25vw;
+    }
+  
+    /* content2 */
+  
+    .content2 .title3 {
+      font-size: 4rem;
+    }
+    .content2 .desc {
+      font-size: 2.5rem;
+    }
+  
+    .content2 .grille {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 35vw 35vw;
+    }
+    .carte1 {
+      grid-column: 1;
+      grid-row: 1;
+    }
+    .carte2 {
+      grid-column: 2;
+      grid-row: 1;
+    }
+    .carte3 {
+      grid-column: 3;
+      grid-row: 1;
+    }
+    .carte4 {
+      grid-column: 1;
+      grid-row: 2;
+    }
+    .carte5 {
+      grid-column: 2;
+      grid-row: 2;
+    }
+    .carte6 {
+      grid-column: 3;
+      grid-row: 2;
+    }
+    .content2 .carte .icon {
+      font-size: 4rem;
+    }
+    .content2 .carte h3{
+      font-size: 3rem;
+    }
+    .content2 .carte p{
+      font-size: 2.5rem;
+    }
+    /* footer */
+    footer .title3 {
+      font-size: 4rem;
+    }
+    footer .desc2 {
+      font-size: 2.5rem;
+    }
+
+    footer form .sub-btn {
+      margin-top: 2vw;
+      font-size: 3rem;
+      padding: 25px;
+    }
+    footer .social-links {
+      margin-top: -2vw;
+    }
+    footer .social-links a {
+      font-size: 3rem;
+      padding: 2vw 2.4vw;
+    }
+}
